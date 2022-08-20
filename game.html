@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Lee Seznayove">
+
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Russo+One&display=swap" rel="stylesheet">
+    </head>
+
+    <body onload="initiate()">
+        <button onclick="start()">start</button>
+        <div id="container">
+            <div id="outerBox">
+                <div id="green" class="buttonSize green" onclick="selectedColor(this)"></div>
+                <div id="red" class="buttonSize red" onclick="selectedColor(this)"></div>
+                <div id="yellow" class="buttonSize yellow" onclick="selectedColor(this)"></div>
+                <div id="blue" class="buttonSize blue" onclick="selectedColor(this)"></div>
+            </div>
+            <div id="middleIcon">SIMON</div>
+        </div>
+    </body>
+</html>
